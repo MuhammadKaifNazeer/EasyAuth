@@ -4,6 +4,9 @@
 
 @layer base {
   :root {
+    --primary-color: #41FB1B;
+    --primary-color-two: #89FB5E;
+    --primary-color-three: #0DDD50;
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;

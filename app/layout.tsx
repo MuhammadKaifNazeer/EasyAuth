@@ -8,10 +8,9 @@ import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Get Documentation",
-  metadataBase: new URL("https://getdocumentation.vercel.app/"),
-  description:
-    "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.",
+  title: "Easy Auth",
+  metadataBase: new URL("https://useeasyauth.vercel.app/"),
+  description: "",
 };
 
 export default function RootLayout({
