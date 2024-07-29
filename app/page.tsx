@@ -28,7 +28,7 @@ export default function Home() {
         </p>
         <div className="flex flex-row items-center gap-5">
           <Link href={`/docs/${page_routes[0].href}`}>
-            <Button className="bg-gradient-to-r from-[#41FB1B] to-[#0DDD50] text-white text-lg font-semibold px-14 py-8 rounded-full">
+            <Button className="bg-gradient-to-r from-[#41FB1B] to-[#0DDD50] text-white text-lg font-semibold px-14 py-8 rounded-full hover:shadow-xl transition duration-200">
               Get Started
             </Button>
           </Link>
