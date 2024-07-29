@@ -10,10 +10,7 @@ export function Footer() {
           <CodeXml className="sm:block hidden w-5 h-5 text-muted-foreground fill-current" />
           <p className="text-center">
             Build by{" "}
-            <Link
-              className="px-1 underline underline-offset-2"
-              href="https://github.com/nisabmohd"
-            >
+            <Link className="px-1 underline underline-offset-2" href="#">
               Muhammad Kaif Nazeer
             </Link>
             .
@@ -32,7 +29,7 @@ export function FooterButtons() {
   return (
     <>
       <Link
-        href="https://github.com/MuhammadKaifNazeer/Get-Documentation"
+        href="#"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <Github className="h-4 w-4 mr-2 text-primary fill-current" />

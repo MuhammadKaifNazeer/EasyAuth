@@ -48,7 +48,7 @@ export function Navbar() {
             <Search />
             <div className="flex">
               <Link
-                href="https://github.com/MuhammadKaifNazeer/Get-Documentation"
+                href="#"
                 target="_blank"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
@@ -77,7 +77,7 @@ export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
       <CodeXml className="w-6 h-6" />
-      <h2 className="text-md font-bold">Get Documentation</h2>
+      <h2 className="text-md font-bold">Easy Auth</h2>
     </Link>
   );
 }
