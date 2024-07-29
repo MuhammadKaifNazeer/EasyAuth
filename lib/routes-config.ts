@@ -6,7 +6,6 @@ export const ROUTES = [
     items: [
       { title: "Introduction", href: "/introduction" },
       { title: "Quick Start Guide", href: "/quick-start-guide" },
-      { title: "Project Structure", href: "/project-structure" },
     ],
   },
   {
