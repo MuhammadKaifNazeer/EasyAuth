@@ -15,11 +15,11 @@ export const NAVLINKS = [
   },
   {
     title: "Templates",
-    href: "#",
+    href: "/templates",
   },
   {
     title: "Live Demo",
-    href: "#",
+    href: "/demo",
   },
 ];
 
@@ -44,7 +44,7 @@ export function Navbar() {
             <Search />
             <div className="flex">
               <Link
-                href="#"
+                href="https://github.com/MuhammadKaifNazeer/EasyAuth"
                 target="_blank"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
