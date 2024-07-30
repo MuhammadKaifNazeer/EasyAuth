@@ -8,9 +8,10 @@ import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Easy Auth",
+  title: "EasyAuth - Free & Open-Source Authentication Systems for Next.js",
   metadataBase: new URL("https://useeasyauth.vercel.app/"),
-  description: "",
+  description:
+    "EasyAuth offers a collection of free and open-source authentication systems for Next.js applications. Easily integrate secure and customizable authentication solutions into your projects.",
 };
 
 export default function RootLayout({
