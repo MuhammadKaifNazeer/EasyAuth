@@ -12,16 +12,32 @@ export const ROUTES = [
     title: "JWT Auth",
     href: "jwtAuth",
     items: [
-      { title: "Basic Auth", href: "/basicAuth" },
-      { title: "With mail confirmation", href: "/mailconfirmation" },
+      { title: "Introduction", href: "/introduction" },
+      { title: "Basic JWT Authentication", href: "/basicJwtAuth" },
+      {
+        title: "Auth with Profile Management",
+        href: "/authWithProfileManagement",
+      },
+      { title: "Email Confirmation", href: "/emailconfirmation" },
     ],
   },
   {
-    title: "Social Auth",
-    href: "socialauth",
+    title: "Comming Soon",
+    href: "comingSoon",
     items: [
-      { title: "Google Auth", href: "/googleAuth" },
-      { title: "Github Auth", href: "/githubAuth" },
+      { title: "OAuth Authentication", href: "/OAuthAuthentication" },
+      {
+        title: "Passwordless Authentication",
+        href: "/passwordlessAuthentication",
+      },
+      {
+        title: "Session Based Authentication",
+        href: "/sessionBasedAuthentication",
+      },
+      {
+        title: "Social Auth",
+        href: "/socialAuth",
+      },
     ],
   },
 ];
