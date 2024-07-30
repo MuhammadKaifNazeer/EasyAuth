@@ -14,10 +14,6 @@ export const NAVLINKS = [
     href: `/docs/${page_routes[0].href}`,
   },
   {
-    title: "Examples",
-    href: "#",
-  },
-  {
     title: "Templates",
     href: "#",
   },
@@ -75,9 +71,9 @@ export function Navbar() {
 
 export function Logo() {
   return (
-    <Link href="/" className="flex items-center gap-2.5">
-      <CodeXml className="w-6 h-6" />
-      <h2 className="text-md font-bold">Easy Auth</h2>
+    <Link href="/" className="flex items-center gap-2">
+      <div className="w-6 h-6 rounded-full bg-gradient-to-r from-[#41FB1B] to-[#0DDD50]"></div>
+      <h2 className="text-lg font-bold">Easy Auth</h2>
     </Link>
   );
 }
