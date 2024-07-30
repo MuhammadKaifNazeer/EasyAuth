@@ -12,7 +12,10 @@ export function Footer() {
           </Link>
           <p className="text-center">
             Build by{" "}
-            <Link className="px-1 underline underline-offset-2" href="#">
+            <Link
+              className="px-1 underline underline-offset-2"
+              href="https://muhammadkaifnazeer.netlify.app/"
+            >
               Muhammad Kaif Nazeer
             </Link>
             .
@@ -31,7 +34,7 @@ export function FooterButtons() {
   return (
     <>
       <Link
-        href="#"
+        href="https://github.com/MuhammadKaifNazeer/EasyAuth"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <Github className="h-4 w-4 mr-2 text-primary fill-current" />
