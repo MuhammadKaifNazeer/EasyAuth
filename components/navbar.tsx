@@ -13,14 +13,14 @@ export const NAVLINKS = [
     title: "Documentation",
     href: `/docs/${page_routes[0].href}`,
   },
-  {
-    title: "Templates",
-    href: "/templates",
-  },
-  {
-    title: "Live Demo",
-    href: "/demo",
-  },
+  // {
+  //   title: "Templates",
+  //   href: "/templates",
+  // },
+  // {
+  //   title: "Live Demo",
+  //   href: "/demo",
+  // },
 ];
 
 export function Navbar() {
