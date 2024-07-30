@@ -35,6 +35,7 @@ export function FooterButtons() {
     <>
       <Link
         href="https://github.com/MuhammadKaifNazeer/EasyAuth"
+        target="_blank"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <Github className="h-4 w-4 mr-2 text-primary fill-current" />
